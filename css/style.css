@@ -1,0 +1,117 @@
+body{
+}
+.logo{
+    display: flex;
+}
+.logo .logoname{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #1865aa;
+}
+.logoimage{
+    padding: 5px;
+}
+.nav-link{
+}
+.menutopo{
+    display:flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+.header{
+    background-color: white;
+}
+.carousel-inner{
+}
+.carouselimg{
+    height: 15cm;
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+    object-position: center; /* Centraliza a imagem */
+}
+.conteudo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card1{
+    justify-items: center;
+    margin:0px;
+    margin-bottom: 30px;
+}
+.button{
+    margin-bottom: 35px;
+    background-color: #1865aa;
+    border-radius: 35px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 1.5s ease;
+}
+.button:hover{
+    color: white;
+    background-color: #04457e;
+    transform: scale(1.1);
+}
+svg{
+    color:#1865aa ;
+}
+.card{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+.card-text{
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer{
+    border-top: 3px solid black;
+}
+footer .nav-item{
+    padding-right: 30px;
+}
+.faleconosco{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.button1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color:#1865aa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    font-size: 36px;
+}
+.button1:hover{
+    color: white;
+    background-color: #04457e;
+    transform: scale(1.03);
+}
+.video{
+    margin-bottom: 30px;
+}
+.videorow{
+    justify-content: center;
+}
+.video iframe{
+}
